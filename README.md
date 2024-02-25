@@ -16,19 +16,15 @@ To run the project, you'll need the following dependencies:
 
 - Python 3.9 or above
 - Jupyter Notebook
-- Required Python packages (install via pip install -r `requirements.txt`)
+- Required Python packages ( install via pip install -r `requirements.txt` )
 
 ## Getting Started
 1. Clone the repository:
-
-   ```bash
+ ```bash
     git clone https://github.com/your-username/lstm-stock-prediction.git
-    ```
-      
-    '''
+ ```
 2. Open the Jupyter Notebook in Colab:
-
-  ```bash
+ ```bash
     # Navigate to the project directory
     cd lstm-stock-prediction
     jupyter notebook
