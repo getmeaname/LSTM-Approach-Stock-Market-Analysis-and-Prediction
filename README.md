@@ -1,6 +1,6 @@
 # Stock Price Prediction with LSTM
 ## Overview
-This project utilizes Long Short-Term Memory (LSTM) networks to predict and analyze stock prices. The model is trained on historical stock data using the yfinance library, covering the previous 3 years up to the current date. The implementation is done in Google Colab, providing a seamless environment for data analysis and model development.
+This project utilizes `Long-Short Term Memory` (LSTM) networks to predict and analyze stock prices. The model is trained on historical stock data using the yfinance library, covering the previous 3 years up to the current date. The implementation is done in Google Colab, providing a seamless environment for data analysis and model development.
 
 ## Features
 LSTM Model Implementation: Utilizes LSTM networks for capturing temporal dependencies in stock price data, allowing for more accurate predictions.
@@ -14,31 +14,34 @@ Prediction Evaluation: Evaluate the model's predictive performance using various
 ## Prerequisites
 To run the project, you'll need the following dependencies:
 
-- Python 3.x
+- Python 3.9 or above
 - Jupyter Notebook
-- Required Python packages (install via pip install -r requirements.txt)
+- Required Python packages (install via pip install -r `requirements.txt`)
 
 ## Getting Started
+1. Clone the repository:
 
-- Clone the repository:
-''' bash
-git clone https://github.com/your-username/lstm-stock-prediction.git
-'''
-- Open the Jupyter Notebook in Colab:
-''' bash
-// Navigate to the project directory
-cd lstm-stock-prediction
-jupyter notebook
-'''
-- Open the Stock_Prediction_LSTM.ipynb notebook.
+   ```bash
+    git clone https://github.com/your-username/lstm-stock-prediction.git
+    ```
+      
+    '''
+2. Open the Jupyter Notebook in Colab:
+
+  ```bash
+    # Navigate to the project directory
+    cd lstm-stock-prediction
+    jupyter notebook
+  ```
+3. Open the Stock_Prediction_LSTM.ipynb notebook.
 
 ## Configuration
 ### Stock Selection
-- Replace STOCK_LIST with the ticker symbol of your preferred stock in the notebook.
+- Replace `STOCK_LIST` with the ticker symbol of your preferred stock in the notebook.
 ### Training Parameters
 - The model was trained for 80 epochs using the Huber loss function and the Adam optimizer.
 ### Performance Metrics
-- The model's performance is evaluated using Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and Mean Squared Error (MSE).
+- The model's performance is evaluated using `Root Mean Squared Error` (RMSE), `Mean Absolute Error` (MAE), and `Mean Squared Error`(MSE).
 
 ## Usage
 - Run the notebook cell by cell, following the instructions and comments provided.
